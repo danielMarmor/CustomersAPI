@@ -1,0 +1,106 @@
+2022-03-09 00:21:28,443 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 00:21:33,630 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 00:22:26,649 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 00:22:26,932 - FlightsLogger - INFO - add: <User.User object at 0x00000205FE89D0D0>
+2022-03-09 00:22:36,686 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFA9AA30>]
+2022-03-09 00:23:14,519 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB88A00>]
+2022-03-09 00:23:14,526 - FlightsLogger - INFO - get_all: []
+2022-03-09 00:23:46,515 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB917F0>]
+2022-03-09 00:23:46,520 - FlightsLogger - INFO - get_all: []
+2022-03-09 00:23:46,534 - FlightsLogger - INFO - add: <Customer.Customer object at 0x00000205FFB88C10>
+2022-03-09 00:24:04,815 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB918B0>]
+2022-03-09 00:24:04,818 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFB918E0>]
+2022-03-09 00:24:04,827 - FlightsLogger - INFO - add: <Customer.Customer object at 0x00000205FFB06880>
+2022-03-09 00:24:25,323 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB91DC0>]
+2022-03-09 00:24:25,326 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFB91DF0>, <Customer.Customer object at 0x00000205FFB91BE0>]
+2022-03-09 00:24:25,341 - FlightsLogger - INFO - add: <Customer.Customer object at 0x00000205FFB88E80>
+2022-03-09 00:24:40,471 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB99310>]
+2022-03-09 00:24:40,475 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFB99340>, <Customer.Customer object at 0x00000205FFB99100>, <Customer.Customer object at 0x00000205FFB99370>]
+2022-03-09 00:24:40,485 - FlightsLogger - INFO - add: <Customer.Customer object at 0x00000205FFB91070>
+2022-03-09 00:25:04,955 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB9B820>]
+2022-03-09 00:25:04,959 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFB9B850>, <Customer.Customer object at 0x00000205FFB9B640>, <Customer.Customer object at 0x00000205FFB9B880>, <Customer.Customer object at 0x00000205FFB9B8E0>]
+2022-03-09 00:25:04,970 - FlightsLogger - INFO - add: <Customer.Customer object at 0x00000205FFB919D0>
+2022-03-09 00:25:23,984 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFB9BD30>]
+2022-03-09 00:25:23,986 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFB9BD60>, <Customer.Customer object at 0x00000205FFB9BB50>, <Customer.Customer object at 0x00000205FFB9BD90>, <Customer.Customer object at 0x00000205FFB9BDF0>, <Customer.Customer object at 0x00000205FFB9BE20>]
+2022-03-09 00:25:23,989 - FlightsLogger - INFO - add: <Customer.Customer object at 0x00000205FFB91940>
+2022-03-09 00:25:27,923 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFBA0280>]
+2022-03-09 00:25:27,925 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFBA0070>, <Customer.Customer object at 0x00000205FFBA0190>, <Customer.Customer object at 0x00000205FFBA0130>, <Customer.Customer object at 0x00000205FFBA01F0>, <Customer.Customer object at 0x00000205FFBA0220>, <Customer.Customer object at 0x00000205FFBA0340>]
+2022-03-09 00:25:59,498 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000205FFBA0CD0>]
+2022-03-09 00:25:59,500 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x00000205FFBA0AF0>, <Customer.Customer object at 0x00000205FFBA0A60>, <Customer.Customer object at 0x00000205FFBA0B80>, <Customer.Customer object at 0x00000205FFBA0D00>, <Customer.Customer object at 0x00000205FFBA0D30>, <Customer.Customer object at 0x00000205FFBA0DC0>]
+2022-03-09 00:26:54,105 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 00:27:04,596 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 00:27:04,853 - FlightsLogger - INFO - add: <User.User object at 0x0000016B55C0F160>
+2022-03-09 00:27:09,674 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000016B55BE78E0>]
+2022-03-09 00:27:23,030 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000016B55BE78B0>]
+2022-03-09 00:27:23,034 - FlightsLogger - INFO - get_all: []
+2022-03-09 11:07:15,849 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DC5CEE0>]
+2022-03-09 11:07:55,674 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 11:07:55,962 - FlightsLogger - INFO - add: <User.User object at 0x000002272DC79370>
+2022-03-09 11:08:02,605 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DC5C100>]
+2022-03-09 11:08:50,177 - FlightsLogger - INFO - get_all_by_condition: []
+2022-03-09 11:08:50,445 - FlightsLogger - INFO - add: <User.User object at 0x000002272DC2EE80>
+2022-03-09 11:10:46,953 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DC5CB50>]
+2022-03-09 11:11:58,011 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DC5C0A0>]
+2022-03-09 11:11:58,028 - FlightsLogger - INFO - get_all: []
+2022-03-09 11:12:50,005 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCCA9A0>]
+2022-03-09 11:12:50,007 - FlightsLogger - INFO - get_all: []
+2022-03-09 11:12:50,045 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DC2EBB0>
+2022-03-09 11:14:32,422 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCCAFA0>]
+2022-03-09 11:14:32,424 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCCAEE0>]
+2022-03-09 11:14:32,431 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DC7D280>
+2022-03-09 11:14:52,407 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD51C0>]
+2022-03-09 11:14:52,408 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCD51F0>, <Customer.Customer object at 0x000002272DCD5100>]
+2022-03-09 11:14:52,414 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DC7D640>
+2022-03-09 11:15:11,625 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD6310>]
+2022-03-09 11:15:11,626 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCD6340>, <Customer.Customer object at 0x000002272DCD6100>, <Customer.Customer object at 0x000002272DCD6370>]
+2022-03-09 11:15:11,633 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DC7D280>
+2022-03-09 11:15:36,555 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD6460>]
+2022-03-09 11:15:36,557 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCD6490>, <Customer.Customer object at 0x000002272DCD6250>, <Customer.Customer object at 0x000002272DCD64C0>, <Customer.Customer object at 0x000002272DCD6520>]
+2022-03-09 11:15:36,566 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DCCA7C0>
+2022-03-09 11:15:55,063 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD65B0>]
+2022-03-09 11:15:55,064 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCD65E0>, <Customer.Customer object at 0x000002272DCD63A0>, <Customer.Customer object at 0x000002272DCD6610>, <Customer.Customer object at 0x000002272DCD6670>, <Customer.Customer object at 0x000002272DCD66A0>]
+2022-03-09 11:15:55,071 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DCCA670>
+2022-03-09 11:16:07,428 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD6520>]
+2022-03-09 11:16:07,429 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCD6760>, <Customer.Customer object at 0x000002272DCD6160>, <Customer.Customer object at 0x000002272DCD6730>, <Customer.Customer object at 0x000002272DCD67C0>, <Customer.Customer object at 0x000002272DCD67F0>, <Customer.Customer object at 0x000002272DCD6880>]
+2022-03-09 11:16:07,436 - FlightsLogger - INFO - add: <Customer.Customer object at 0x000002272DCCA0A0>
+2022-03-09 11:16:12,079 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD6070>]
+2022-03-09 11:16:12,081 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCD6700>, <Customer.Customer object at 0x000002272DCD6670>, <Customer.Customer object at 0x000002272DCD6340>, <Customer.Customer object at 0x000002272DCD64F0>, <Customer.Customer object at 0x000002272DCD6280>, <Customer.Customer object at 0x000002272DCD6940>, <Customer.Customer object at 0x000002272DCD69A0>]
+2022-03-09 11:16:48,520 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD6310>]
+2022-03-09 11:16:48,526 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCCAB20>
+2022-03-09 11:17:30,270 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCD69A0>]
+2022-03-09 11:17:30,271 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCCAE20>
+2022-03-09 11:17:30,285 - FlightsLogger - INFO - update: <class 'Customer.Customer'>, 3, {'name': 'John Starks', 'address': 'New York City'}
+2022-03-09 11:18:13,462 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCEE460>]
+2022-03-09 11:18:13,464 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DC7D910>
+2022-03-09 11:19:00,309 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCEE550>]
+2022-03-09 11:19:00,311 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCD6310>
+2022-03-09 11:19:00,324 - FlightsLogger - INFO - update: <class 'Customer.Customer'>, 3, {'name': 'John Starkovitchs', 'address': 'New York City'}
+2022-03-09 11:19:31,755 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCEEA90>]
+2022-03-09 11:19:31,756 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCEE670>, <Customer.Customer object at 0x000002272DCEE820>, <Customer.Customer object at 0x000002272DCEEA00>, <Customer.Customer object at 0x000002272DCEEAF0>, <Customer.Customer object at 0x000002272DCEEB20>, <Customer.Customer object at 0x000002272DCEEBB0>, <Customer.Customer object at 0x000002272DCEEC40>]
+2022-03-09 11:19:53,706 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCEE070>]
+2022-03-09 11:19:53,707 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCEEA60>
+2022-03-09 11:19:53,721 - FlightsLogger - INFO - remove: SELECT customers.cust_id AS customers_cust_id, customers.name AS customers_name, customers.address AS customers_address 
+FROM customers 
+WHERE customers.cust_id = %(cust_id_1)s
+2022-03-09 11:20:24,135 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCF60D0>]
+2022-03-09 11:20:24,136 - FlightsLogger - INFO - get_all: [<User.User object at 0x000002272DCD65B0>, <User.User object at 0x000002272DCEE9A0>, <User.User object at 0x000002272DCF60D0>]
+2022-03-09 11:22:33,613 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCCA790>]
+2022-03-09 11:22:33,615 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DCCAF10>, <Customer.Customer object at 0x000002272DCCA4F0>, <Customer.Customer object at 0x000002272DCCA760>, <Customer.Customer object at 0x000002272DC5CF10>, <Customer.Customer object at 0x000002272DC5C0A0>, <Customer.Customer object at 0x000002272DC2EF70>]
+2022-03-09 11:23:13,797 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCCA9A0>]
+2022-03-09 11:23:13,798 - FlightsLogger - INFO - get_all: [<User.User object at 0x000002272DCCA670>, <User.User object at 0x000002272DCCAAC0>, <User.User object at 0x000002272DCCA9A0>]
+2022-03-09 11:24:32,032 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCF68E0>]
+2022-03-09 11:24:32,034 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCF6160>
+2022-03-09 11:25:41,621 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCF69D0>]
+2022-03-09 11:25:41,623 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCF6160>
+2022-03-09 11:25:41,643 - FlightsLogger - INFO - update: <class 'Customer.Customer'>, 3, {'name': 'John Starkovitchs', 'address': 'New York'}
+2022-03-09 11:26:35,171 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DCF6EB0>]
+2022-03-09 11:26:35,172 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCF6340>
+2022-03-09 11:26:35,179 - FlightsLogger - INFO - update: <class 'Customer.Customer'>, 3, {'name': 'John Starks', 'address': 'New York'}
+2022-03-09 11:27:17,911 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DD01460>]
+2022-03-09 11:27:17,912 - FlightsLogger - INFO - get_by_id: <Customer.Customer object at 0x000002272DCF6640>
+2022-03-09 11:27:17,947 - FlightsLogger - INFO - remove: SELECT customers.cust_id AS customers_cust_id, customers.name AS customers_name, customers.address AS customers_address 
+FROM customers 
+WHERE customers.cust_id = %(cust_id_1)s
+2022-03-09 11:28:05,051 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DD017F0>]
+2022-03-09 11:28:05,053 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DD01550>, <Customer.Customer object at 0x000002272DD01610>, <Customer.Customer object at 0x000002272DD01760>, <Customer.Customer object at 0x000002272DD01790>, <Customer.Customer object at 0x000002272DD018B0>]
+2022-03-09 11:57:54,369 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001AAF895FEE0>]
