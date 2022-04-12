@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', filename='myapp.css')}}" rel="stylesheet">
+    <title>MyApp</title>
+</head>
+<body>
+    <h1>Welcome {{username}}!</h1>
+    <form style="border:1px solid #ccc">
+        <button type="submit" formaction="/logout" formmethod="get" class="logoutbtn">Log out</button>
+    </form>
+</body>
+</html>

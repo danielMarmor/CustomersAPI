@@ -104,3 +104,92 @@ WHERE customers.cust_id = %(cust_id_1)s
 2022-03-09 11:28:05,051 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002272DD017F0>]
 2022-03-09 11:28:05,053 - FlightsLogger - INFO - get_all: [<Customer.Customer object at 0x000002272DD01550>, <Customer.Customer object at 0x000002272DD01610>, <Customer.Customer object at 0x000002272DD01760>, <Customer.Customer object at 0x000002272DD01790>, <Customer.Customer object at 0x000002272DD018B0>]
 2022-03-09 11:57:54,369 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001AAF895FEE0>]
+2022-04-08 23:33:19,259 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-08 23:33:22,711 - FlightsLogger - INFO - add: <User.User object at 0x000001F011BCE190>
+2022-04-08 23:33:23,830 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F011B81A00>]
+2022-04-08 23:59:15,704 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001D56D882A30>]
+2022-04-09 00:03:26,990 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000178C78871F0>]
+2022-04-09 00:05:06,105 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 00:05:08,231 - FlightsLogger - INFO - add: <User.User object at 0x000001B8CC948070>
+2022-04-09 00:05:09,894 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B8CE033340>]
+2022-04-09 00:07:53,060 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002433EC8C6A0>]
+2022-04-09 00:16:56,594 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000245666EC640>]
+2022-04-09 00:26:58,186 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 00:26:58,447 - FlightsLogger - INFO - add: <User.User object at 0x00000224CE271DF0>
+2022-04-09 00:26:58,450 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000224CE29EF10>]
+2022-04-09 00:28:03,279 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 00:28:05,061 - FlightsLogger - INFO - add: <User.User object at 0x00000224CE30A700>
+2022-04-09 00:28:05,659 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000224CE324A60>]
+2022-04-09 00:31:57,592 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001FBA048E2E0>]
+2022-04-09 00:32:13,106 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001FBA04D8370>]
+2022-04-09 00:33:19,739 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000027F46635D30>]
+2022-04-09 00:34:51,533 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002148743F370>]
+2022-04-09 00:35:07,505 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000214874C5430>]
+2022-04-09 00:35:21,712 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000021487483910>]
+2022-04-09 00:35:36,851 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000214874EE940>]
+2022-04-09 00:35:43,932 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002148743F970>]
+2022-04-09 00:35:53,392 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002148743FF40>]
+2022-04-09 00:37:26,391 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 00:37:26,628 - FlightsLogger - INFO - add: <User.User object at 0x00000214874C50A0>
+2022-04-09 00:37:26,630 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000214874830D0>]
+2022-04-09 00:37:45,024 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000214874EE3A0>]
+2022-04-09 00:37:56,964 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000021487485910>]
+2022-04-09 00:38:30,457 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 00:38:30,695 - FlightsLogger - INFO - add: <User.User object at 0x00000214874767C0>
+2022-04-09 00:38:30,696 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002148743F430>]
+2022-04-09 00:38:41,590 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002148751D670>]
+2022-04-09 00:38:52,736 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000002148751D910>]
+2022-04-09 00:49:06,300 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001BD7E143D90>]
+2022-04-09 00:54:18,116 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001A87FA462E0>]
+2022-04-09 01:02:37,151 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001EEC72485E0>]
+2022-04-09 01:05:24,552 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 01:05:24,788 - FlightsLogger - INFO - add: <User.User object at 0x000001B0EF8728E0>
+2022-04-09 01:05:24,791 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF8A7FA0>]
+2022-04-09 01:05:29,765 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF8729D0>]
+2022-04-09 01:05:38,613 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF8DD580>]
+2022-04-09 01:05:54,527 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF874100>]
+2022-04-09 01:06:34,533 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-09 01:06:34,770 - FlightsLogger - INFO - add: <User.User object at 0x000001B0EF8DD910>
+2022-04-09 01:06:34,772 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF813BB0>]
+2022-04-09 01:06:43,842 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF8A7C40>]
+2022-04-09 01:06:48,504 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF8FFAF0>]
+2022-04-09 01:07:20,462 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001B0EF8FFEE0>]
+2022-04-12 21:11:45,327 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:12:57,828 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:12:58,185 - FlightsLogger - INFO - add: <User.User object at 0x000001F308C05670>
+2022-04-12 21:12:58,187 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C81640>]
+2022-04-12 21:13:19,794 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C816D0>]
+2022-04-12 21:13:49,970 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C353D0>]
+2022-04-12 21:14:21,374 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:14:21,664 - FlightsLogger - INFO - add: <User.User object at 0x000001F308C5C640>
+2022-04-12 21:14:21,666 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308BE3EB0>]
+2022-04-12 21:14:31,059 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C81D30>]
+2022-04-12 21:15:00,462 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C35460>]
+2022-04-12 21:15:09,355 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C05F10>]
+2022-04-12 21:16:34,832 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:16:35,067 - FlightsLogger - INFO - add: <User.User object at 0x000001F308C35880>
+2022-04-12 21:16:35,069 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001F308C81220>]
+2022-04-12 21:18:46,255 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000018DD0C69100>]
+2022-04-12 21:20:27,576 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x0000018DD1CCE6D0>]
+2022-04-12 21:34:12,886 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x000001D7C0C07E20>]
+2022-04-12 21:35:10,021 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:35:10,316 - FlightsLogger - ERROR - add: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(danielmarmor2@gmail.com) already exists.
+
+[SQL: INSERT INTO users (public_id, username, email, password) VALUES (%(public_id)s, %(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'public_id': UUID('29393dc0-1632-45a6-93c1-e984a504825e'), 'username': 'stav', 'email': 'danielmarmor2@gmail.com', 'password': 'pbkdf2:sha256:260000$QEhI94rBUL9gdkmT$1ac1989f43ffa7847300899f6597ef30579d3ce0ab03d535e65108e0dc772338'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+2022-04-12 21:35:24,245 - FlightsLogger - ERROR - get_all_by_condition: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(danielmarmor2@gmail.com) already exists.
+
+[SQL: INSERT INTO users (public_id, username, email, password) VALUES (%(public_id)s, %(username)s, %(email)s, %(password)s) RETURNING users.id]
+[parameters: {'public_id': UUID('29393dc0-1632-45a6-93c1-e984a504825e'), 'username': 'stav', 'email': 'danielmarmor2@gmail.com', 'password': 'pbkdf2:sha256:260000$QEhI94rBUL9gdkmT$1ac1989f43ffa7847300899f6597ef30579d3ce0ab03d535e65108e0dc772338'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj) (Background on this error at: https://sqlalche.me/e/14/7s2a)
+2022-04-12 21:36:49,906 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000273FD415E80>]
+2022-04-12 21:38:15,093 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:38:17,437 - FlightsLogger - INFO - add: <User.User object at 0x00000273FD3AFEE0>
+2022-04-12 21:38:18,507 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000273FD445F10>]
+2022-04-12 21:39:13,287 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000273FD3F65B0>]
+2022-04-12 21:39:53,535 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000273FD4681C0>]
+2022-04-12 21:40:25,307 - FlightsLogger - INFO - get_all_by_condition: []
+2022-04-12 21:40:50,355 - FlightsLogger - INFO - get_all_by_condition: [<User.User object at 0x00000273FD495820>]
