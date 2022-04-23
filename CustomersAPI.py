@@ -14,7 +14,10 @@ import os
 
 import json
 
+template_dir = os.path.abspath('Login/templates')
+app = Flask(__name__, template_folder=template_dir)
 app = Flask(__name__)
+app.static_folder = os.path.abspath('Login/static')
 
 # customers = [
 #     Customer(id=1, name='danny', address='tel-aviv'),

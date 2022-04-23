@@ -1,10 +1,12 @@
 from flask import Flask, request, render_template, redirect, session
+from flask_cors import CORS, cross_origin
 from flask_session import Session
 from CustomersService import CustomerService
 from CustomersRepository import CustomersRepository
 from db_config import local_session, create_all_entities
 from configparser import ConfigParser
 from werkzeug.security import generate_password_hash, check_password_hash
+import json
 import os
 
 # INIT CUSTOMERS_API
@@ -23,7 +25,7 @@ app = Flask(__name__, template_folder=template_dir)
 app.static_folder = os.path.abspath('../static')
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
-
+CORS(app)
 Session(app)
 
 
@@ -142,6 +144,22 @@ def my_app():
     user_name = user.username
     my_app_response = render_template('myApp.html', username=user_name)
     return my_app_response
+
+
+@app.route('/show_customers_app', methods=['GET'])
+def show_customers_app():
+    show_cust_response = render_template('customers_ajax.html')
+    return show_cust_response
+
+
+@app.route('/customers_data', methods=['GET'])
+def get_customers_data():
+    try:
+        customers = customer_service.get_customers()
+        customers_data = json.dumps([cust.serialize for cust in customers])
+        return customers_data
+    except Exception as exc:
+        return {'status': f'faild, {exc}'}
 
 
 app.run()
