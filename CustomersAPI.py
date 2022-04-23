@@ -157,7 +157,6 @@ def get_users(current_user, *args, **kwargs):
 
 
 @app.route('/customers', methods=['GET', 'POST'])
-@token_required
 def get_or_post_customers(current_user, *args, **kwargs):
     if request.method == 'GET':
         try:

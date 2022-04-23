@@ -6,6 +6,8 @@ from CustomersRepository import CustomersRepository
 from db_config import local_session, create_all_entities
 from configparser import ConfigParser
 from werkzeug.security import generate_password_hash, check_password_hash
+from NotFoundException import NotFoundException
+from Customer import Customer
 import json
 import os
 
@@ -161,6 +163,72 @@ def get_customers_data():
     except Exception as exc:
         return {'status': f'faild, {exc}'}
 
+
+@app.route('/customers-ajax-app', methods=['GET'])
+def get_customers_app():
+    if request.method == 'GET':
+        ajax_app_respnse = render_template('customers_ajax_crud_oper.html')
+        return ajax_app_respnse
+
+
+@app.route('/customers', methods=['GET', 'POST'])
+def get_or_post_customers():
+    if request.method == 'GET':
+        try:
+            customers = customer_service.get_customers()
+            customers_data = json.dumps([cust.serialize for cust in customers])
+            return customers_data
+        except Exception as exc:
+            return {'status': f'faild, {exc}'}
+
+    if request.method == 'POST':
+        try:
+            new_data = request.get_json()
+            new_customer = Customer(cust_id=None, name=new_data['name'], address=new_data['address'])
+            customer_service.add_customer(new_customer)
+            return {'status': 'success'}
+        except Exception as exc:
+            return {'status': f'faild, {exc}'}
+
+
+@app.route('/customers/<int:customer_id>', methods=['GET', 'PUT', 'DELETE', 'PATCH'])
+def get_customer_by_id(customer_id):
+    if request.method == 'GET':
+        try:
+            customer = customer_service.get_customer_by_id(customer_id)
+            if customer is None:
+                raise NotFoundException('Customer Not Found', Customer, customer_id)
+            data = json.dumps(customer.serialize)
+            return data
+        except NotFoundException as exc:
+            return {'status': 'Not Found'}
+        except Exception as exc:
+            return {'status': f'faild, {exc}'}
+
+    if request.method == 'PUT':
+        try:
+            customer_data = request.get_json()
+            customer_service.put_customer(customer_id, customer_data)
+            return {'status': 'success'}
+        except Exception as exc:
+            return {'status': f'faild, {exc}'}
+
+    if request.method == 'PATCH':
+        try:
+            customer_data = request.get_json()
+            customer_service.patch_customer(customer_id, customer_data)
+            return {'status': 'success'}
+        except Exception as exc:
+            return {'status': f'faild, {exc}'}
+
+    if request.method == 'DELETE':
+        try:
+            customer_service.remove_customer(customer_id)
+            return {'status': 'success'}
+        except NotFoundException as exc:
+            return {'status': 'Not Found'}
+        except Exception as exc:
+            return {'status': 'Failed'}
 
 app.run()
 
